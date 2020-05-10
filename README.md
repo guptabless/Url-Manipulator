@@ -1,4 +1,6 @@
 # Url-Manipulator
+You can use this python script to shorten the urls and vice-versa.
+Single and multiple can be given at a time.
 
 ## Requirment:
 ### packages 
@@ -17,12 +19,14 @@
 
 url-manipulator.py [-h] --help
 
-OPTIONS:
+OPTIONS: 
 ```
--h,      --help    
+-h,         --help    
              	 show this help message and exit
--s       Path of File with Long URLS
-		       	<To Short URLS>
--f 	     Path of File with short URLS 
-	      		<To Get Long URLS>
+-s           You can provide single URL or Path of File with multiple long URLS
+			<To Short URLS>
+-f 	     You can provide path of File with multiple short URLS 
+			<To Get Long URLS>
+			
 ```
+
